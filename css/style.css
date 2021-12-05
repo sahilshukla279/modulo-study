@@ -1,0 +1,370 @@
+body {
+    font-family: 'Roboto';
+}
+.h-100 {height: 100%!important;}
+.cyan-bg {
+    background: #37FDFC;
+}
+.tagline{
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);   
+}
+
+.tagline span{
+    color:black;
+    display: block;
+}
+
+.text1{
+    font-size: 70px;
+    font-family: Alegreya;
+    font-weight:bold;
+    position: relative;
+    animation: text 3s 1; 
+    background:#37FDFC;
+}
+
+.text1 img{
+    width:100px;
+    height:60px;
+    background:#37FDFC; 
+}
+
+.text2{
+    font-size:23px;  
+    margin-left:30%;
+    background:#37FDFC; 
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+}
+
+@keyframes text{
+
+    0%{
+        color:black;
+        transition:8s; 
+        margin-bottom:-40px; 
+    }
+
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px; 
+    }
+}
+
+
+
+.navbar-brand {
+	width: 280px;
+	height: 80px;
+}
+
+.navbar-brand img{
+	width: 100%;
+}
+header { height: 8vh;}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+    height: 80px;
+    margin-bottom: 0;
+    
+}
+.intro-banner {
+	background: url(../images/bg34.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-position: right;
+    width: 100%;
+}
+.intro-banner .button {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.border {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    left: 70px;
+}
+ h1 {
+	font-size: 50px;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    /*background: rgba(,0,0,0.5);
+    width: 35%;
+    margin: 0 auto;*/
+    line-height: 50px;
+    /*text-shadow: 1px 4px 3px #000; */
+}
+.intro-banner h1{
+    background: none;
+    width: auto;
+    color: black;
+    margin: 20px 0;
+    text-shadow: none;
+}
+.border p {
+	font-size: 30px;
+}
+.border .button{
+	background-color: white;
+    padding-top:0 ;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 10px auto 0;
+}
+
+.border .button a{
+    padding: 15px 75px;
+    display: block;
+}
+.border .button:hover{
+	background-color: white/*#B8F0F3*/;
+    color: black;
+    transform: scale(1.1);
+}
+.border .button:hover a{
+    text-decoration: none;
+}
+
+.select-your-course{
+	background-image: url(../images/bg38.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.all-course {
+    text-align: center;
+}
+.margin-top h1{
+    padding: 10px 0  25px 0;
+}
+.course-btn {
+	margin: 20px;
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+}
+
+.course-btn a{
+	border: 1px solid black;
+    padding: 70px 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    background: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000b3;
+    height: 180px;
+}
+
+.course-btn a:hover {
+	background: #53B6E1;
+	transform: scale(1.05);
+}
+
+/*select-subject-ssc*/
+.select-your-course,.select-subject {padding: 100px 0;}
+.select-subject h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.box {
+    background: #f2f2f2;
+    width: 90%;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #000000b3;
+}
+.subject-btn a{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 auto 20px;
+    width: 80%;
+    transition: 0.6s ease;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000b3;
+}
+.subject-btn a:hover {
+    background: #53B6E1;
+}
+.blue-bg {
+    /*background: url(../images/bg7.jpg);
+    background-size: cover;
+    background-position: center;*/
+    height: 100vh;
+    background: #87CEEB;
+}
+.blue100vh-bg {
+    /*background: url(../images/bg7.jpg);
+    background-size: cover;
+    background-position: center;*/
+    height: 100%;
+    background: #87CEEB;
+}
+.red-bg  {
+    background: #ff3300;
+    height: 100vh;
+}
+.red100-bg {
+    background: #ff3300;
+    height: 100vh;
+}
+.red100vh{
+    background: #ff3300;
+    height: 100%;
+}
+.yellow-bg {
+    height: 100vh;
+    background: yellow;
+
+}
+.yellowvh {
+    height: 100vh;
+    background: yellow;
+
+}
+.yellow-vh {
+    height: 100%;
+    background: yellow;
+
+}
+.green-bg  {
+    background: lightgreen;
+    height: 100vh;
+}
+.green-bg100  {
+    background: lightgreen;
+    height: 100%;
+}
+.dblue-bg  {
+    background: #000080;
+    height: 100vh;
+}
+.diplomablue-bg {
+    height: 100vh;
+    background: #87CEEB;
+}
+.red-btn a{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 auto 20px;
+    width: 80%;
+    transition: 0.6s ease;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000b3;
+}
+.red-btn a:hover {
+    background: red ;
+}
+.blue-btn a{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 auto 20px;
+    width: 80%;
+    transition: 0.6s ease;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000b3;
+}
+.blue-btn a:hover {
+    background: #000080;
+}
+.greeen-btn a{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 auto 20px;
+    width: 80%;
+    transition: 0.6s ease;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000b3;
+}
+.green-btn a:hover {
+    background: lightgreen ;
+}
+.yellow-btn a{
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 auto 20px;
+    width: 80%;
+    transition: 0.6s ease;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px #000000b3;
+}
+.yellow-btn a:hover {
+    background: yellow ;
+}
+
+
+
